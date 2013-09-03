@@ -1,0 +1,12 @@
+package.json
+{
+  "name": "30-days-of-html",
+  "verson: 0.0.1",
+  "private": true,
+  "scripts": "node app.js"
+}, 
+"dependencies": {
+  "express": "3.3.5",
+  "jade": "*"
+  }
+}
