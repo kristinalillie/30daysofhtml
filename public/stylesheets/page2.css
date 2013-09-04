@@ -28,10 +28,7 @@ h1 {
   max-width: 100%;
   boarder-right: 1em;
   boarder-bottom: 2em;
-
 }
-
-
 
 html, body {
   
@@ -76,12 +73,12 @@ a:hover {background-color: yellow;}
   margin-bottom: 6em;
 }
 
-
 img {
   width: 300px;
   height: auto;
   margin-bottom: 10px;
 }
+
 .small-photo {
   width: 100px;
   float: right;
@@ -90,10 +87,12 @@ img {
   margin-bottom: 5px;
   border: 1px solid #ff7100;
 }
+
 #butterfly {
   float: left;
   margin-bottom: 100px;
 }
+
 #penguin {
   float: right;
   margin-bottom: 200px;
