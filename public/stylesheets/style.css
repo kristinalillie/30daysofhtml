@@ -1,5 +1,3 @@
-style.css
-
 html,
 button,
 input,
@@ -7,6 +5,7 @@ select,
 textarea {
   color: #222;
 }
+
 @font-face {
   font-family: Fontin Sans; 
   src: url("../../public/fonts/FontinSans_49/Fontin_Sans_B_45b.otf");
@@ -29,13 +28,9 @@ h1 {
   max-width: 100%;
   boarder-right: 1em;
   boarder-bottom: 2em;
-
 }
 
-
-
-html, body {
-  
+html, body {  
 }
 
 body {
