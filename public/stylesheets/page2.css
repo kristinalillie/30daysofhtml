@@ -53,6 +53,14 @@ body {
   width: 50%;
 }
 
+a:link {color: #ff7100;}
+a:visited {color: gray;}
+a:hover {background-color: yellow;}
+
+.noUnderline a {
+  text-decoration: none;
+}
+
 #links {
   background-color: #D6EBD6;
   text-align: left;

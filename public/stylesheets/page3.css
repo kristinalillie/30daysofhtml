@@ -1,4 +1,3 @@
-style.css
 
 html,
 button,
@@ -32,7 +31,13 @@ h1 {
 
 }
 
-
+.small-photo {
+  width: 100px;
+  float: right;
+  margin-right: 3em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 html, body {
   
@@ -45,17 +50,41 @@ body {
   text-align: left;
   margin: 0;
   padding-left: 1em;
+  float: clear;
 }
 
-a:link {color: orange;}
-a:visited {color: gray;}
-a:hover {icon-hand: white;}
+a.class:link {text-decoration: none; color: purple;}
+a.class:visited {text-decoration: none; color: orange;}
+a.class:hover {text-transform: italic; color: red;}
+
+a.class2:link {text-decoration: none; color: blue;}
+a.class2:visited {text-decoration: none; color: #da6cda;}
+a.class2:hover {text-decoration: underline; color: orange;}
 
 #content {
   margin-bottom: 200px;
   margin-left: 30px;
   float: left;
-  width: 70%;
+  width: 50%;
+}
+
+a:link {color: orange;}
+a:visited {color: gray;}
+a:hover {icon-hand: white; background-color: yellow}
+
+#links {
+  background-color: #D6EBD6;
+  text-align: left;
+  float: right; 
+  width: 200px;
+  height: 140%;
+  padding-top: 0.5em;
+  padding-bottom: 0.50em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-right: 3em;
+  margin-top: 1em; 
+  margin-bottom: 6em;
 }
 
 .noBulletnoIndent {
@@ -67,39 +96,7 @@ a:hover {icon-hand: white;}
   text-decoration: none;
 }
 
-#links {
-  background-color: #D6EBD6;
-  text-align: left;
-  float: right; 
-  width: 200px;
-  height: 300px;
-  padding-top: 0.5em;
-  padding-bottom: 0.50em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-right: 3em;
-  margin-top: 1em; 
-  margin-bottom: 6em;
-}
 
-.line-separator {
-  border: 1px solid #CFCFCF; 
-  bottom: 0px;
-  width: 95%;
-  height: 0
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 1em;
-  margin-right: 0;
-  margin-top: 50%;
-  margin-bottom: 50px;
-}
-
-#comments {
-  text-align: left;
-  clear: both;
-  margin-left: 1em;
-}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -132,10 +129,6 @@ hr {
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-
-img {
-  vertical-align: middle;
-}
 
 /*
  * Remove default fieldset styles.
