@@ -1,4 +1,3 @@
-
 html,
 button,
 input,
@@ -28,7 +27,6 @@ h1 {
   max-width: 100%;
   boarder-right: 1em;
   boarder-bottom: 2em;
-
 }
 
 .small-photo {
@@ -40,7 +38,6 @@ h1 {
 }
 
 html, body {
-  
 }
 
 body {
