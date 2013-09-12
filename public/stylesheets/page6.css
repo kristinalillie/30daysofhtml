@@ -1,3 +1,4 @@
+
 html,
 button,
 input,
@@ -5,7 +6,6 @@ select,
 textarea {
   color: #222;
 }
-
 @font-face {
   font-family: Fontin Sans; 
   src: url("../../public/fonts/FontinSans_49/Fontin_Sans_B_45b.otf");
@@ -41,31 +41,27 @@ body {
   text-align: left;
   margin: 0;
   padding-left: 1em;
-  float: clear; 
-}
-
-#content {
-  margin-bottom: 200px;
-  margin-left: 30px;
-  float: left;
-  width: 50%;
+  float: clear;
 }
 
 a:link {color: #ff7100; text-decoration: none;}
 a:visited {color: gray; text-decoration: none;}
 a:hover {background-color: yellow;}
 
-.NoUnderLine {
-  text-decoration: none; 
+#content {
+  margin-bottom: 100px;
+  margin-left: 30px;
+  float: left;
+  width: 50%;
 }
 
 div {
 display: inline;
-width: 200px;
-height: 200px;
-border-spacing: 20px;
-border-radius: 100px;
-line-height: 200px;
+width: 150px;
+height: 150px;
+border-spacing: 75px;
+border-radius: 75px;
+line-height: 150px;
 text-align: center;
 color: #FFFFFF;
 margin: 20px;
@@ -73,7 +69,7 @@ margin: 20px;
 
 #green {
   background-color: #259325; 
-  display: inline-block;
+  display: inline-block; 
 }
 
 #red {
@@ -107,12 +103,12 @@ margin: 20px;
 }
 
 #gray {
-  background-color: gray; 
+  background-color: #414244; 
   display: inline-block;
 }
 
 #brown {
-  background-color: #A64B00; 
+  background-color: #A65200; 
   display: inline-block;
 }
 
@@ -121,6 +117,45 @@ margin: 20px;
   display: inline-block;
 }
 
+#lgreen {
+  background-color: #D6EBD6; 
+  display: inline-block;
+}
+
+#lred {
+  background-color: #FF8673; 
+  display: inline-block;
+}
+
+#lorange {
+  background-color: #FFB273; 
+  display: inline-block;
+}
+
+#lblue {
+  background-color: #4671D5; 
+  display: inline-block;
+}
+
+#lpurple {
+  background-color: #AD66D5; 
+  display: inline-block;
+}
+
+#lyellow {
+  background-color: #FFFF73; 
+  display: inline-block;
+}
+
+#lbrown {
+  background-color: #BF7730; 
+  display: inline-block;
+}
+
+#lgray {
+  background-color: #9A948C; 
+  display: inline-block;
+}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
