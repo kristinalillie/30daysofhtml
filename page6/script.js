@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('div div').click(function(){
+  $('div').click(function() {
     $('#green').addClass('animated bounceOutLeft');
     $('#red').addClass('animated bounceOutRight'); 
     $('#orange').addClass('animated swing');
@@ -18,5 +18,5 @@ $(document).ready(function() {
     $('#lyellow').addClass('animated lightSpeedIn');
     $('#lbrown').addClass('animated hinge');
     $('#lgray').addClass('animated rollOut');
-  });  
+  });   
 });
